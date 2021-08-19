@@ -46,12 +46,12 @@ public class Nim
      * generate a random integer between 0 and 1 (inclusive).
      * 
      * Here's how you generate random integers in general:
-     * (int) Math.floor((Math.random() * (max - min + 1)) + min)
+     * (int) Math.floor(Math.random() * (max - min + 1) + min)
      * 
      * Here's how you simulate a coin flip:
-     * (int) Math.floor((Math.random() * (2 - 1 + 1)) + 1)
+     * (int) Math.floor(Math.random() * (2 - 1 + 1) + 1)
      * ...which can be simplified to:
-     * (int) Math.floor((Math.random() * 2) + 1)
+     * (int) Math.floor(Math.random() * 2 + 1)
      */
     public static void setupGame() {
 
